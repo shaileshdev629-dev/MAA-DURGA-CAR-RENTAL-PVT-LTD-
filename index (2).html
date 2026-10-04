@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Affordable self-drive car rental in Greater Noida. Rent from ₹99 per hour or ₹1,500 for 12 hours with no security deposit.">
+<title>Self Drive Car Rental | Greater Noida</title>
+<style>
+:root{--bg:#0b0d10;--card:#14181d;--soft:#1c2229;--text:#f5f7fa;--muted:#aab2bd;--accent:#f5b400;--accent2:#ffd45c;--border:#29313a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,13,16,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:800;letter-spacing:.3px}.logo span{color:var(--accent)}
+.navlinks{display:flex;gap:26px;color:var(--muted);font-size:14px}
+.navlinks a:hover{color:var(--text)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 20px;border-radius:10px;font-weight:700;border:1px solid transparent;transition:.2s}
+.btn-primary{background:var(--accent);color:#111}.btn-primary:hover{background:var(--accent2);transform:translateY(-1px)}
+.btn-outline{border-color:#46505b;color:var(--text)}.btn-outline:hover{border-color:var(--accent)}
+.hero{padding:90px 0 70px;background:radial-gradient(circle at 75% 20%,rgba(245,180,0,.16),transparent 34%),linear-gradient(180deg,#101419,#0b0d10)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}
+.badge{display:inline-block;background:rgba(245,180,0,.12);color:var(--accent2);border:1px solid rgba(245,180,0,.3);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(40px,6vw,70px);line-height:1.02;letter-spacing:-2.5px;margin-bottom:20px}
+.hero p{font-size:18px;color:var(--muted);max-width:650px;margin-bottom:28px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{background:linear-gradient(145deg,#1a2027,#11151a);border:1px solid var(--border);border-radius:22px;padding:28px;box-shadow:0 20px 70px rgba(0,0,0,.3)}
+.hero-card .mini{color:var(--muted);font-size:13px}.price{font-size:52px;font-weight:850;line-height:1;margin:8px 0}.price small{font-size:17px;color:var(--muted);font-weight:500}
+.price2{font-size:25px;font-weight:800}.line{height:1px;background:var(--border);margin:22px 0}
+.check{display:flex;gap:10px;margin:12px 0;color:#dfe4e9}.check b{color:var(--accent)}
+section{padding:80px 0}.section-head{margin-bottom:35px}.section-head h2{font-size:36px;letter-spacing:-1px}.section-head p{color:var(--muted);margin-top:7px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:25px}.icon{font-size:27px;margin-bottom:12px}.card h3{margin-bottom:7px}.card p{color:var(--muted);font-size:15px}
+.pricing{background:#101419}.price-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.price-card{padding:34px;border:1px solid var(--border);background:var(--card);border-radius:20px}.price-card.featured{border-color:rgba(245,180,0,.6);box-shadow:0 0 0 1px rgba(245,180,0,.08)}
+.price-card h3{font-size:19px}.big{font-size:46px;font-weight:850;margin:10px 0}.big span{font-size:16px;color:var(--muted);font-weight:500}
+.price-card p{color:var(--muted)}
+.terms{display:grid;grid-template-columns:1fr 1fr;gap:18px}.term{padding:22px;background:var(--card);border:1px solid var(--border);border-radius:15px}.term strong{color:var(--accent);margin-right:8px}.term p{display:inline;color:#c5ccd4}
+.contact{background:linear-gradient(145deg,#171c22,#0f1216)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:stretch}.contact-box{border:1px solid var(--border);background:rgba(0,0,0,.15);border-radius:18px;padding:28px}.contact-row{margin:18px 0}.label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}.value{font-size:17px;margin-top:4px}
+footer{border-top:1px solid var(--border);padding:25px 0;color:var(--muted);font-size:13px}
+@media(max-width:800px){.navlinks{display:none}.hero{padding-top:65px}.hero-grid,.contact-grid,.terms{grid-template-columns:1fr}.cards,.price-grid{grid-template-columns:1fr}section{padding:60px 0}h1{letter-spacing:-1.5px}.hero-card{margin-top:5px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="container nav">
+<div class="logo">MAA <span>DURGAA</span> CAR RENTAL</div>
+<div class="navlinks"><a href="#pricing">Pricing</a><a href="#services">Services</a><a href="#fleet">Cars</a><a href="#terms">Terms</a><a href="#contact">Contact</a></div>
+<a class="btn btn-primary" href="tel:+919631432308">Call Now</a>
+</div>
+</nav>
+
+<header class="hero">
+<div class="container" style="padding-top:20px;margin-bottom:35px"><img src="maa-durgaa-banner.jpg" alt="Maa Durgaa Car Rental - Swift and Baleno" style="width:100%;max-height:520px;object-fit:cover;border-radius:22px;border:1px solid var(--border);box-shadow:0 20px 70px rgba(0,0,0,.35)"></div>
+<div class="container hero-grid">
+<div>
+<div class="badge">GREATER NOIDA • SELF-DRIVE & WITH-DRIVER RENTALS</div>
+<h1>Drive your way.<br><span style="color:var(--accent)">Your journey, your choice.</span></h1>
+<p>Self-drive and with-driver car rental services with flexible booking options for short trips, full days and monthly requirements.</p>
+<div class="actions">
+<a class="btn btn-primary" href="https://wa.me/919631432308?text=Hi%2C%20I%20want%20to%20book%20a%20self-drive%20car." target="_blank">💬 Book on WhatsApp</a>
+<a class="btn btn-outline" href="tel:+919631432308">📞 96314 32308</a>
+</div>
+</div>
+<div class="hero-card">
+<div class="mini">STARTING FROM</div>
+<div class="price">₹99 <small>/ 24 hours</small></div>
+<div class="price2">₹1,500 <span style="color:var(--muted);font-size:14px;font-weight:500">/ 12 hours</span></div>
+<div class="line"></div>
+<div class="check"><b>✓</b> No security deposit</div>
+<div class="check"><b>✓</b> Self-drive convenience</div>
+<div class="check"><b>✓</b> Greater Noida location</div>
+</div>
+</div>
+</header>
+
+<section id="benefits">
+<div class="container">
+<div class="section-head"><h2>Simple. Flexible. Ready to drive.</h2><p>Everything you need for a hassle-free self-drive rental.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">💳</div><h3>No Security Deposit</h3><p>Book with confidence without a separate security deposit requirement.</p></div>
+<div class="card"><div class="icon">⏱️</div><h3>Flexible Rental</h3><p>Choose the hourly option or the convenient 12-hour package.</p></div>
+<div class="card"><div class="icon">🚗</div><h3>Self-Drive Freedom</h3><p>Take control of your trip and enjoy the convenience of driving yourself.</p></div>
+</div>
+</div>
+</section>
+
+
+<section id="services">
+<div class="container">
+<div class="section-head"><h2>Our services</h2><p>Choose the rental option that suits your journey.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">🚘</div><h3>Self-Drive</h3><p>Enjoy the freedom to drive the car yourself with flexible rental durations.</p></div>
+<div class="card"><div class="icon">👨‍✈️</div><h3>With Driver</h3><p>Prefer to sit back? Driver-assisted rental service is also available.</p></div>
+<div class="card"><div class="icon">📅</div><h3>Flexible Booking</h3><p>Bookings available for 4–6 hours, 12 hours, 24 hours and monthly subscriptions.</p></div>
+</div>
+</div>
+</section>
+
+<section id="fleet">
+<div class="container">
+<div class="section-head"><h2>Cars available</h2><p>Ask us about availability for your preferred vehicle.</p></div>
+<div class="cards">
+<div class="card"><h3>Maruti Suzuki Baleno</h3><p>Comfortable hatchback for city and highway travel.</p></div>
+<div class="card"><h3>Maruti Suzuki Swift</h3><p>Easy-to-drive hatchback for everyday trips.</p></div>
+<div class="card"><h3>Mahindra Thar</h3><p>Adventure-ready SUV for memorable drives.</p></div>
+<div class="card"><h3>Mahindra Scorpio-N</h3><p>Spacious SUV for family and group travel.</p></div>
+<div class="card"><h3>Maruti Suzuki Fronx</h3><p>Modern crossover for comfortable journeys.</p></div>
+<div class="card"><h3>Mahindra Scorpio Classic</h3><p>Robust SUV for long-distance and practical travel.</p></div>
+</div>
+</div>
+</section>
+
+<section id="pricing" class="pricing">
+<div class="container">
+<div class="section-head"><h2>Rental pricing</h2><p>Clear pricing with no security deposit.</p></div>
+<div class="price-grid">
+<div class="price-card"><h3>24-Hour Rental</h3><div class="big">₹99 <span>/ 24 hours</span></div><p>Special promotional rate for a 24-hour self-drive rental.</p><br><a class="btn btn-primary" href="https://wa.me/919631432308?text=Hi%2C%20I%20want%20to%20book%20the%20hourly%20rental." target="_blank">Book 24 Hours</a></div>
+<div class="price-card featured"><h3>12-Hour Rental</h3><div class="big">₹1,500 <span>/ 12 hours</span></div><p>A convenient option for day-long travel and planned trips.</p><br><a class="btn btn-primary" href="https://wa.me/919631432308?text=Hi%2C%20I%20want%20to%20book%20the%2012-hour%20rental." target="_blank">Book 12 Hours</a></div>
+</div>
+</div>
+</section>
+
+<section id="terms">
+<div class="container">
+<div class="section-head"><h2>Terms & Conditions</h2><p>Please read the rental terms before booking or using the vehicle.</p></div>
+<div class="terms">
+<div class="term"><strong>01</strong><p>Any additional charges, including late fees, damage charges, excess kilometres, fuel differences, tolls, parking, or fines, may be deducted from the applicable deposit or charged separately.</p></div>
+<div class="term"><strong>02</strong><p>The renter is responsible for damage caused during the rental period due to negligence, misuse, accident, or violation of these terms.</p></div>
+<div class="term"><strong>03</strong><p>Additional kilometres beyond the agreed limit will be charged at the applicable per-kilometre rate.</p></div>
+<div class="term"><strong>04</strong><p>The renter must not arrange major repairs without prior approval, except where immediate action is reasonably necessary for safety.</p></div>
+<div class="term"><strong>05</strong><p>By booking, collecting, or using the vehicle, the renter confirms that they have read, understood, and agreed to these Terms & Conditions and the specific rental agreement provided for the booking.</p></div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container contact-grid">
+<div>
+<div class="section-head"><h2>Ready to drive?</h2><p>Contact us to check vehicle availability and make your booking.</p></div>
+<div class="actions"><a class="btn btn-primary" href="https://wa.me/919631432308?text=Hi%2C%20I%20want%20to%20check%20car%20availability." target="_blank">💬 WhatsApp Us</a><a class="btn btn-outline" href="tel:+919631432308">📞 Call Us</a></div>
+</div>
+<div class="contact-box">
+<div class="contact-row"><div class="label">Phone</div><div class="value"><a href="tel:+919631432308">+91 96314 32308</a><br><a href="tel:+919716252648">+91 97162 52648</a></div></div>
+<div class="contact-row"><div class="label">Instagram</div><div class="value"><a href="https://www.instagram.com/maa__durgaa_car_rental?stkn=MWdpY3RucHdnczZpdg%3D%3D&utm_source=qr" target="_blank">@maa__durgaa_car_rental</a></div></div>
+<div class="contact-row"><div class="label">Address</div><div class="value">F Block 355, ALPHA 2, 5th Cross St, Pocket F, Block F, Sector Alpha II, Greater Noida, Uttar Pradesh 201310</div></div>
+</div>
+</div>
+</section>
+
+<footer><div class="container">© 2026 MAA DURGAA CAR RENTAL PVT. LTD. • Greater Noida • All rights reserved.</div></footer>
+</body>
+</html>
